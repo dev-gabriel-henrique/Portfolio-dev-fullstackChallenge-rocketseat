@@ -1,0 +1,38 @@
+#info {
+  background-image: url(/assets/images/Background_Intro.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  padding: 12rem 18.3rem 16rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#info header {
+  display: flex;
+  flex-direction: column;
+  padding: 0 18rem 12rem;
+}
+
+.avatar {
+  margin: auto;
+}
+
+#user {
+  position: relative;
+  border: 2px solid var(--red);
+  border-radius: 50%;
+
+  width: 9.6rem;
+  height: 9.6rem;
+
+  object-fit: contain;
+}
+
+nav ul {
+  display: flex;
+  border: 1px solid red;
+}
+
