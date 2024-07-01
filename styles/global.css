@@ -32,6 +32,7 @@
 }
 
 body {
+  width: 100%;
   background-color: var(--gray-200);
   color: var(--gray-500);
 }
@@ -58,6 +59,7 @@ h4 {
   text-align: center;
 
 }
+
 
 span {
   color: var(--red);
