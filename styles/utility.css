@@ -1,7 +1,23 @@
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
 .gap-16 {
   gap: 1.6rem;
 }
 
 .gap-56 {
   gap: 5.6rem;
+}
+
+.tx-sm {
+  font: var(--text-sm);
+}
+
+.tx-md {
+  font: var(--text-md);
 }
