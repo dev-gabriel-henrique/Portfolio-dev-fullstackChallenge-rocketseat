@@ -1,5 +1,8 @@
 #jobs {
   padding: 0 12rem 14.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
   header {
     display: flex;
@@ -17,6 +20,7 @@
 
   .cards {
     padding: 1.2rem;
+    width: 33rem;
 
     display: flex;
     flex-direction: column;
@@ -33,12 +37,7 @@
     object-fit: cover;
   }
 
-  .cards img:hover {
-    border: 1px solid var(--gray-400);
-  }
-
   .cards:hover {
-    background-color: var(--gray-300);
     border: 1px solid var(--gray-400);
     border-radius: .8rem;
   }
