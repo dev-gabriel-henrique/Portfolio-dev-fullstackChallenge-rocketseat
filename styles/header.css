@@ -61,23 +61,19 @@
 
 .tags {
   margin: 0 auto 9.4rem;
-
   
-}
-
-ul li {
- display: flex;
- gap: .8rem;
- align-items: center;
- 
- background-color: var(--gray-300);
- border-radius: 99.9rem;
- padding: .8rem 1.6rem;
- font: var(--text-md);
-}
-
-ul:hover {
-  color: var(--red);
+  ul li {
+   display: flex;
+   gap: .8rem;
+   align-items: center;
+   
+   background-color: var(--gray-300);
+   border-radius: 99.9rem;
+   padding: .8rem 1.6rem;
+   font: var(--text-md);
+   color: var(--gray-500);
+  }
+  
 }
 
 #arrow {

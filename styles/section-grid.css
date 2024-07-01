@@ -1,0 +1,51 @@
+.jobs {
+  padding: 0 12rem 14.4rem;
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5.6rem;
+    gap: .8rem;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  
+    gap: 2.4rem;
+  }
+
+  .cards {
+    padding: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+
+  .description p {
+    font: var(--text-sm);
+  }
+  
+  .cards img {
+    border-radius: .8rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .cards img:hover {
+    border: 1px solid var(--gray-400);
+  }
+
+  .cards:hover {
+    background-color: var(--gray-300);
+    border: 1px solid var(--gray-400);
+    border-radius: .8rem;
+  }
+}
