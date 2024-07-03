@@ -77,7 +77,23 @@
   
 }
 
-a {
+#scroll {
+  position: fixed;
+  bottom: 0;
+  right: 1rem;
+  z-index: 1;
   width: 2.3rem;
   margin: auto;
+  background-color: transparent;
+  border: none;
+}
+
+#scroll:active {
+  animation: active paused 1s ease-in;
+}
+
+@keyframes active {
+  0% {
+    transform: scale(0.8);
+  }
 }
