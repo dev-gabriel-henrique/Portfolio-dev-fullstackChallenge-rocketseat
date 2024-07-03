@@ -29,12 +29,6 @@
     padding: 2rem;
     align-items: center;
    }
-
-   #mail {
-    background-image: url(./assets/logos/EnvelopeSimple.svg);
-    width: 2.8rem;
-    height: 2.8rem;
-   }
    
     p {
       width: 28.8rem;
