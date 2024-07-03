@@ -1,5 +1,5 @@
 #info {
-  background-image: url(./assets/images/BackgroundIntro.png);
+  background-image: url(../assets/images/BackgroundIntro.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -30,7 +30,7 @@
     height: 3.5rem;
 
     position: absolute;
-    background-image: url(./assets/code.png);
+    background-image: url(../assets/code.png);
     background-repeat: no-repeat;
     right: 11.25%;
     bottom: 13.24%;
