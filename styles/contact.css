@@ -41,13 +41,20 @@
       color: var(--gray-500);
     }
 
+    a {
+      border: 0.5px solid var(--gray-300);
+      border-radius: .8rem;
+      transition: 0.5s;
+    }
+    
     a:hover {
       border: 1.5px solid var(--blue);
       border-radius: .8rem;
+      transform: scale(1);
+
       
-      a:hover img {
-        filter: invert(63%) sepia(51%) saturate(3305%) hue-rotate(179deg) brightness(89%) contrast(92%);
+      img {
+        filter: invert(63%) sepia(51%) saturate(3305%) hue-rotate(179deg) brightness(83%) contrast(92%);
       }
     }    
   }
-  
